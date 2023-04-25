@@ -310,14 +310,12 @@ function checkCommand(input) {
     else if (input === projects) {
         consoleResponse("My Githubs projects", input);
 
-        consoleResponseOnly(`LemonFlix : A reproduction of the most popular streaming website "Netflix", but for watching animes for free ! This website was my biggest project but I decided to stop developing it anymore for servals resons like my horrible coding method (it was litteraly spagetti coding) and some legals resons too... I coded this website using PHP and MYSQL for user database and video storage.`);
+        consoleResponseOnly(`LemonFlix : A reproduction of the most popular streaming website "Netflix", but for watching animes for free ! This website was my biggest project but I decided to stop developing it anymore for servals resons like my horrible coding method (it was litteraly spaghetti coding) and some legals resons too... I coded this website using PHP and MYSQL for user database and video storage.`);
 
         consoleResponseOnly(`DTM : Discord-Torrent-Manager is a powerfull bot to download and manage torrents through a discord server. You can search the torrent using the Torrent-search API, download it on your home server or a cloud service using the qBittorent API, then you can get the download speed, the progression, the left time, you can pause/resume the torrent. With DTM you can now easly download torrent using your phone or any hardware who running discord ! All of this is coded with nodejs.`);
 
         consoleResponseOnly(`Pronote-Webhooks : I used Discord webhooks to get my day's timetable, my homeworks and the day's meal, using a pronote API coded in Python. I put that on a linux server with a crontab, so i can access all of this daily on my Discord server.`);
     
-        consoleResponseOnly(`Pronote-Webhooks : I used Discord webhooks to get my day's timetable, my homeworks and the day's meal, using a pronote API coded in Python. I put that on a linux server with a crontab, so i can access all of this daily on my Discord server.`);
-
         consoleResponseOnly(`Valorant-Instalocker : A Python GUI application to lock your favorite agent before everyone ! This one is not working for the moment because riot games release 2 new agents, so I have move all the cursors positions (I don't really have the motivation for xD).`);
 
         consoleResponseOnly(`BurgerKing : I made a brand new website for the Steakhouse BurgerKing product, because I was bored and I wanted to train scroll effects and my website designs in Figma. Link : "https://lemonprog.github.io/BurgerKing/"`);
