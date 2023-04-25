@@ -1,0 +1,115 @@
+:root {
+    --main-color: #211D1B;
+    --text-color-main: #33FFB9;
+    --text-color-second: #33CEFF;
+    --text-color-third: #FF8633;
+    --text-color-file: #FF4D4D;
+}
+
+html {
+    background-color: var(--main-color);
+    font-family: 'Ubuntu Mono', monospace;
+    margin-left: 35px;
+}
+
+body {
+    margin-top: 35px;
+}
+
+#command {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    border: none;
+    width: 1550px;
+    overflow-x: hidden;
+    outline: none;
+    caret-color: var(--text-color-main);
+    background-color: var(--main-color);
+    color: var(--text-color-main);
+}
+#command::selection, .text-style-main::selection {
+    color: var(--main-color);
+    background-color: var(--text-color-main);
+}
+.text-style-response::selection {
+    color: var(--main-color);
+    background-color: var(--text-color-second);
+}
+.text-style-responseRight::selection {
+    color: var(--main-color);
+    background-color: var(--text-color-third);
+}
+.text-style-file::selection {
+    color: var(--main-color);
+    background-color: var(--text-color-file);
+}
+
+p {
+    font-size: 30px;
+    color: var(--text-color-main);
+}
+
+.text-style-main {
+    font-size: 30px;
+    font-weight: medium;
+    color: var(--text-color-main);
+}
+
+.text-style-response {
+    font-size: 30px;
+    font-weight: medium;
+    color: var(--text-color-second);
+    margin-left: 20px;
+}
+
+.text-style-responseRight {
+    font-size: 30px;
+    font-weight: medium;
+    color: var(--text-color-third);
+    margin-left: 20px;
+}
+
+.text-style-file {
+    font-size: 30px;
+    font-weight: medium;
+    color: var(--text-color-file);
+    margin-left: 20px;
+}
+
+.input-console-div {
+    display: flex;
+    gap: 15px;
+}
+
+.div-help-main {
+    display: flex;
+    gap: 100px;
+    padding: 20px 0 20px 0;
+    margin-left: 20px;
+}
+.log {
+    margin-top: 0;
+}
+
+.div-ls-command {
+    padding: 20px 0 20px 0;
+}
+
+.div-hover-hint {
+    display: flex;
+}
+
+.text-hover-hint {
+    filter: blur(6px);
+    transition: 0.3s;
+}
+
+.text-hover-hint:hover {
+    transition: 0.3s;
+    filter: blur(0px);
+    cursor: pointer;
+}
+
+.shorter-text {
+    width: 1000px;
+}
